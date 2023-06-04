@@ -15,7 +15,6 @@ namespace login_testing
 {
     public partial class portal : MetroFramework.Forms.MetroForm
     {
-        string num;
         public portal()
         {
             InitializeComponent();
@@ -40,10 +39,7 @@ namespace login_testing
 
         private void dataGridView3_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >= 0)
-            {
-                num = dataGridView3.Rows[e.RowIndex].Cells["number"].Value.ToString();
-            }
+
         }
 
         private void metroTabPage2_Click(object sender, EventArgs e)
@@ -64,27 +60,30 @@ namespace login_testing
 
         private void metroButton8_Click(object sender, EventArgs e)
         {
-            string sql = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + Path.Combine(Directory.GetParent(AppContext.BaseDirectory).Parent.Parent.FullName, "Database1.mdf") + ";Integrated Security=True";
-            SqlConnection conn = new SqlConnection(sql);
-            conn.Open();
-            try
+            if (textBox1.Text.Trim() != "")
             {
-                String match = "DELETE FROM Student WHERE number = @number";
-                SqlCommand cmd = new SqlCommand(match, conn);
-                cmd.CommandType = CommandType.Text;
-                cmd.Parameters.Add("@number", SqlDbType.VarChar).Value = num;
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("Deleted");
+                string sql = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + Path.Combine(Directory.GetParent(AppContext.BaseDirectory).Parent.Parent.FullName, "Database1.mdf") + ";Integrated Security=True";
+                SqlConnection conn = new SqlConnection(sql);
+                conn.Open();
+                try
+                {
+                    String match = "DELETE FROM Student WHERE number = @number";
+                    SqlCommand cmd = new SqlCommand(match, conn);
+                    cmd.CommandType = CommandType.Text;
+                    cmd.Parameters.Add("@number", SqlDbType.VarChar).Value = textBox1.Text;
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Deleted");
+                }
+                catch
+                {
+                    MessageBox.Show("Failed");
+                }
+                finally
+                {
+                    conn.Close();
+                }
+                RefreshStudent();
             }
-            catch
-            {
-                MessageBox.Show("Failed");
-            }
-            finally
-            {
-                conn.Close();
-            }
-            RefreshStudent();
         }
 
         public void RefreshStudent()

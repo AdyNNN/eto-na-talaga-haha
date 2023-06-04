@@ -61,6 +61,7 @@
             this.number = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.metroButton4 = new MetroFramework.Controls.MetroButton();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.metroTabControl1.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -230,6 +231,7 @@
             // 
             // metroTabPage4
             // 
+            this.metroTabPage4.Controls.Add(this.textBox1);
             this.metroTabPage4.Controls.Add(this.metroButton4);
             this.metroTabPage4.Controls.Add(this.metroButton8);
             this.metroTabPage4.Controls.Add(this.metroButton7);
@@ -378,6 +380,14 @@
             this.metroButton4.Text = "Refresh";
             this.metroButton4.Click += new System.EventHandler(this.metroButton4_Click_1);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(258, 12);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(138, 30);
+            this.textBox1.TabIndex = 13;
+            // 
             // portal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -393,6 +403,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.metroTabPage2.ResumeLayout(false);
             this.metroTabPage4.ResumeLayout(false);
+            this.metroTabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.metroTabPage3.ResumeLayout(false);
             this.metroTabPage3.PerformLayout();
@@ -436,5 +447,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn number;
         private System.Windows.Forms.DataGridViewTextBoxColumn name;
         private MetroFramework.Controls.MetroButton metroButton4;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
