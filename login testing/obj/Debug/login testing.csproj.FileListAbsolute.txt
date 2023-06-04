@@ -15,3 +15,21 @@ C:\Users\adrie\source\repos\login testing\login testing\obj\Debug\login testing.
 C:\Users\adrie\source\repos\login testing\login testing\bin\Debug\MetroFramework.dll
 C:\Users\adrie\source\repos\login testing\login testing\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\adrie\source\repos\login testing\login testing\obj\Debug\login testing.csproj.CopyComplete
+C:\Users\Administrator\Source\Repos\AdyNNN\eto-na-talaga-haha\login testing\bin\Debug\Database1.mdf
+C:\Users\Administrator\Source\Repos\AdyNNN\eto-na-talaga-haha\login testing\bin\Debug\Database1_log.ldf
+C:\Users\Administrator\Source\Repos\AdyNNN\eto-na-talaga-haha\login testing\bin\Debug\login testing.exe.config
+C:\Users\Administrator\Source\Repos\AdyNNN\eto-na-talaga-haha\login testing\bin\Debug\login testing.exe
+C:\Users\Administrator\Source\Repos\AdyNNN\eto-na-talaga-haha\login testing\bin\Debug\login testing.pdb
+C:\Users\Administrator\Source\Repos\AdyNNN\eto-na-talaga-haha\login testing\bin\Debug\MetroFramework.dll
+C:\Users\Administrator\Source\Repos\AdyNNN\eto-na-talaga-haha\login testing\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Administrator\Source\Repos\AdyNNN\eto-na-talaga-haha\login testing\obj\Debug\login testing.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\AdyNNN\eto-na-talaga-haha\login testing\obj\Debug\login testing.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Source\Repos\AdyNNN\eto-na-talaga-haha\login testing\obj\Debug\login_testing.Form1.resources
+C:\Users\Administrator\Source\Repos\AdyNNN\eto-na-talaga-haha\login testing\obj\Debug\login_testing.portal.resources
+C:\Users\Administrator\Source\Repos\AdyNNN\eto-na-talaga-haha\login testing\obj\Debug\login_testing.Properties.Resources.resources
+C:\Users\Administrator\Source\Repos\AdyNNN\eto-na-talaga-haha\login testing\obj\Debug\login testing.csproj.GenerateResource.cache
+C:\Users\Administrator\Source\Repos\AdyNNN\eto-na-talaga-haha\login testing\obj\Debug\login testing.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\AdyNNN\eto-na-talaga-haha\login testing\obj\Debug\login testing.csproj.CopyComplete
+C:\Users\Administrator\Source\Repos\AdyNNN\eto-na-talaga-haha\login testing\obj\Debug\login testing.exe
+C:\Users\Administrator\Source\Repos\AdyNNN\eto-na-talaga-haha\login testing\obj\Debug\login testing.pdb
+C:\Users\Administrator\Source\Repos\AdyNNN\eto-na-talaga-haha\login testing\obj\Debug\login_testing.AddStudent.resources
